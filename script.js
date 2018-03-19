@@ -21,7 +21,11 @@ function getprofile(){
             <h3 class="panel-title">${gitObject.name}</h3>
         </div>
         <div class="panel-body">
-            Panel content
+            <ul>
+                <a><li>${}</li></a>
+                <a><li>${}</li></a>
+                <a><li>${}</li></a>
+            </ul>
         </div>
     </div>`;
     }
